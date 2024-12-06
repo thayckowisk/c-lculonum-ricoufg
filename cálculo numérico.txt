@@ -1,0 +1,12 @@
+A Eliminação Gaussiana é o método mais preciso e efeciente em sistemas bem- condicionados. No exemplo, resolve-se de maneira exata e direta, necessitando apenas uma iteração. Este método é rápido e preciso, mas não permite ajustes de tolerância.
+Solução: 
+[1001,−1000,1000,−1000,1001]
+Iterações: 1
+O Método de Gauss- Jacobi atinge uma aproximação próxima ao valor esperado após muitas iterações demonstrando uma convergência lenta/razoável. Apesar de garatir aqui a precisão de uma tolerância de 10^-2, o custo computacional poderia/deve ser mais elevado que em seidel e elim. gauss, esse método é ideal para aproximações.
+Solução: 
+[1.979019,−0.989015,0.989015,−0.989015,1.979019]
+Iterações: 32
+O Método de Gauss - Seidel converge mais rapidamente(menor número de iterações que Jacobi), mas apresenta uma solução que não atinge a exatidão da eliminação gaussiana devido a tolerancia de parada definida. 
+Solução: 
+[1.975319,−0.981242,0.990126,−0.985654,1.985654]
+Iterações: 15
